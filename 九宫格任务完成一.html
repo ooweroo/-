@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>任务1——九宫格</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		div.wrap{
+			width:100%;
+			display: -webkit-flex; /* Safari */ 
+			display: flex;
+			-webkit-flex-direction: column; /* Safari */ 
+			flex-direction: column;
+		}
+		div.son{
+			width:100%;
+			display: flex;
+		}
+		div.block{
+			width:30%;
+			padding-top: 30%;
+			margin: 2px;
+			border-radius: 15px;
+			background-color: orange;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="son">
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+		</div>
+		<div class="son">
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+		</div>
+		<div class="son">
+			<div class="block"></div>
+			<div class="block"></div>
+			<div class="block"></div>
+		</div>
+	</div>
+</body>
+</html>
